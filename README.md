@@ -12,10 +12,10 @@ This repository provides Python scripts for converting image files to .bmp forma
 
 # Requirements 
 
-Python 3.x
-Pillow (PIL) : for image processing
-NumPy : for handling image data
-os and shutil :for file and folder management
+#Python 3.x
+#Pillow (PIL) : for image processing
+#NumPy : for handling image data
+#os and shutil :for file and folder management
 
 # Overview 
 
@@ -25,5 +25,6 @@ Converts images in the specified input_folder and subdirectories to .bmp format,
 3.**organize_images(input_folder, organize_folder="organized_data", sort_by="name")**:
 Organizes images into train, validation, and test subfold
 
-#replace the code accordingly to your need
+#replace the input_folder = r'path' with your own path in the code
+#replace the output_folder = r'path' with your own path in the code 
 
